@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:math';
 
 import 'package:dartfirst/dartfirst.dart' as dartfirst;
 
@@ -6,6 +7,8 @@ import 'factorial.dart';
 import 'function.dart';
 import 'gcd.dart';
 import 'odd_even.dart';
+import 'oops.dart';
+import 'rectangle.dart';
 
 void main() {
 
@@ -23,7 +26,13 @@ void main() {
 // odd_even();
 // factorial();
 // Gcd();
-given();
+// given();
+// person obj=person();
+// obj.printDetails();
+  rectangle obj=rectangle();
+  print(obj. calculateArea());
+  print(obj. calculatePerimeter());
+
 }
 
 
